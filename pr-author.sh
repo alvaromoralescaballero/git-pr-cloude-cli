@@ -10,11 +10,11 @@ source "${SCRIPT_DIR}/lib/colors.sh"
 source "${SCRIPT_DIR}/config/defaults.sh"
 source "${SCRIPT_DIR}/lib/deps.sh"
 source "${SCRIPT_DIR}/lib/context.sh"
-source "${SCRIPT_DIR}/lib/ai.sh"
-source "${SCRIPT_DIR}/lib/commit.sh"
-source "${SCRIPT_DIR}/lib/pr-meta.sh"
-source "${SCRIPT_DIR}/lib/pr_body.sh"
-source "${SCRIPT_DIR}/lib/pr_create.sh"
+source "${SCRIPT_DIR}/lib/ia.sh"
+source "${SCRIPT_DIR}/generate_commit_title/commit.sh"
+source "${SCRIPT_DIR}/generate_commit_title/pr_meta.sh"
+source "${SCRIPT_DIR}/generate_commit_title/pr_body.sh"
+source "${SCRIPT_DIR}/generate_commit_title/pr_create.sh"
 
 
 # --------- Ejecutar Fases en orden -------

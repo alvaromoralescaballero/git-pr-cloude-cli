@@ -1,4 +1,4 @@
-# pr-author.sh v2.0
+# pr-author.sh v1.0
 
 Flujo completo: commit inteligente → push → PR estructurado en GitHub.
 
